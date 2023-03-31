@@ -6,5 +6,36 @@
 .ownImage{
     border-style: solid;  
     border-color: #0f1401; 
-    width: 95%; 
+    /* width: 90%;  */
+    /* height: 500px; */
+}
+
+.icon_skills{
+    /* transform: scale(1.05); */
+    transition: all .4s;
+    transition-timing-function: ease-in-out;
+}
+.icon_skills:hover{
+    /* background-color: yellow !important; */
+    /* margin-top: 2px; */
+    /* transform: translate(0,-5px); */
+    transform: scale(1.1);
+    transition: all .4s;
+    transition-timing-function: ease-in-out;
+    /* transition-delay: .4s; */
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.nav-item:hover .bi-grid{
+    color: #ffc107 !important;
+    /* background-color: yellow; */
+    /* #0d6efd
+    #dc3545 */
+}
+.nav-item:hover .bi-award{
+    color: #0d6efd !important;
+}
+.nav-item:hover .bi-lightbulb{
+    color: #dc3545 !important;
 }
