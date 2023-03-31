@@ -1,0 +1,10 @@
+.clear{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ownImage{
+    border-style: solid;  
+    border-color: #0f1401; 
+    width: 95%; 
+}
